@@ -1,0 +1,8 @@
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\MyCMS.Domain.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\MyCMS.Domain.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\obj\Debug\ResolveAssemblyReference.cache
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\obj\Debug\MyCMS.Domain.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\obj\Debug\MyCMS.Domain.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\Ninject.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\Ninject.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\Ninject.xml

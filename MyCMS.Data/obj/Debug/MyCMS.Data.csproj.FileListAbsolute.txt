@@ -1,0 +1,30 @@
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\obj\Debug\ResolveAssemblyReference.cache
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\MyCMS.Data.dll.config
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\MyCMS.Data.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\MyCMS.Data.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\EntityFramework.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\MyCMS.Domain.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\MyCMS.Domain.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\EntityFramework.xml
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\obj\Debug\MyCMS.Data.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\obj\Debug\MyCMS.Data.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\Ninject.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\WebActivator.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\Ninject.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\Ninject.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Data.dll.config
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Data.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Data.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\EntityFramework.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Domain.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Ninject.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\WebActivator.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Domain.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\EntityFramework.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Ninject.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Ninject.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\obj\Debug\MyCMS.Data.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\obj\Debug\MyCMS.Data.pdb

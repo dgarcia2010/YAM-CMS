@@ -1,0 +1,15 @@
+﻿@model MyCMS.Domain.Entities.Article
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<h2>@Model.Title</h2>
+<em class="subtitle">Publicado el @Model.DateCreated.ToLongDateString()</em>
+
+@Html.Raw(Model.Body)
+
+<p>
+<a href="#">Anterior</a> | <a href="#">Siguiente</a>
+</p>
+

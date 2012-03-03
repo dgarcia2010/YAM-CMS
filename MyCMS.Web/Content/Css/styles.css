@@ -1,0 +1,135 @@
+﻿body 
+{
+    font-family: 'Noticia Text';
+    color: #524C4C;
+    font-size: 18px;
+    background-color: White;
+}
+
+a, legend
+{
+    color: #800000;
+}
+
+input[type=submit] {
+    background-color: #800000;
+    color: White;
+    font-weight: bold;
+    padding: 7px;
+    border-color: #aaaaaa Black Black #aaaaaa;
+    border-style: solid;
+    border-width: thin;
+}
+
+#wrapper 
+{
+    width: 1270px;
+    margin: 0 auto;
+}
+
+#header
+{
+    width: 100%;
+    height: 215px;
+    background-image: url('../Images/header.png');
+}
+
+#left-column, #middle-column, #right-column
+{
+    display:inline-block;
+}
+
+#left-column
+{
+    clear: left;
+    float: left;
+    width: 724px;
+    min-height: 650px;
+    margin: 0 27px 0 17px;
+}
+
+#left-column h2
+{
+    font-size: 30px;
+    color: #800000;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+#left-column p
+{
+    text-align: justify;
+}
+
+.subtitle
+{
+    font-size: 14px;
+    font-style: italic;    
+    display: block;    
+}
+
+#middle-column
+{
+    width: 260px;
+    min-height: 650px;
+}
+
+#right-column
+{
+    clear: right;
+    float: right;
+    width: 215px;
+    min-height: 650px;
+}
+
+#footer
+{
+    height: 80px;
+    width: 100%;
+    font-size: 14px;
+    font-style: italic;    
+    display: block;
+    margin: 7px 0 0 17px;
+}
+
+/* Menús */
+
+#middle-column h2, #right-column h2
+{
+    font-size: 30px;
+    font-weight: normal;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+ul.menu
+{
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+#middle-column .menu li
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: url('../Images/middle-separator.png') no-repeat;
+    background-position: bottom;
+}
+
+#right-column .menu li
+{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    background: url('../Images/right-separator.png') no-repeat;
+    background-position: bottom;    
+}
+
+.menu li a
+{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}

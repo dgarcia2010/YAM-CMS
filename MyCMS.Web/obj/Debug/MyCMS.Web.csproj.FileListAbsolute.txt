@@ -1,0 +1,38 @@
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\MyCMS.Web.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\MyCMS.Web.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\MyCMS.Domain.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\MyCMS.Domain.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\obj\Debug\ResolveAssemblyReference.cache
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\obj\Debug\MyCMS.Web.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\obj\Debug\MyCMS.Web.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Ninject.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Ninject.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Ninject.xml
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Microsoft.Web.Infrastructure.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Ninject.Web.Mvc.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\WebActivator.dll
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Ninject.Web.Mvc.pdb
+c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\DIEGO\Documents\Visual Studio 2010\Projects\MyCMS\MyCMS.Web\bin\MyCMS.Infrastructure.dll
+C:\Users\DIEGO\Documents\Visual Studio 2010\Projects\MyCMS\MyCMS.Web\bin\log4net.dll
+C:\Users\DIEGO\Documents\Visual Studio 2010\Projects\MyCMS\MyCMS.Web\bin\MyCMS.Infrastructure.pdb
+C:\Users\DIEGO\Documents\Visual Studio 2010\Projects\MyCMS\MyCMS.Web\bin\log4net.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\MyCMS.Web.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\MyCMS.Web.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\log4net.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\MyCMS.Domain.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\MyCMS.Infrastructure.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Ninject.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Ninject.Web.Mvc.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\WebActivator.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\MyCMS.Domain.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\MyCMS.Infrastructure.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\log4net.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Ninject.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Ninject.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Ninject.Web.Mvc.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\bin\Ninject.Web.Mvc.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\obj\Debug\MyCMS.Web.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Web\obj\Debug\MyCMS.Web.pdb

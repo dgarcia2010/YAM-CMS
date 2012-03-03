@@ -1,0 +1,24 @@
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Infrastructure.dll
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Infrastructure.pdb
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\log4net.dll
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Domain.dll
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\Ninject.dll
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Domain.pdb
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\log4net.xml
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\Ninject.pdb
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\bin\Debug\Ninject.xml
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\obj\Debug\MyCMS.Infrastructure.dll
+C:\Users\DIEGO\documents\visual studio 2010\Projects\MyCMS\MyCMS.Infrastructure\obj\Debug\MyCMS.Infrastructure.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Infrastructure.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Infrastructure.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\log4net.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Domain.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\Ninject.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\MyCMS.Domain.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\log4net.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\Ninject.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\bin\Debug\Ninject.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\obj\Debug\MyCMS.Infrastructure.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Infrastructure\obj\Debug\MyCMS.Infrastructure.pdb
