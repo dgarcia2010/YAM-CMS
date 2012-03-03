@@ -4,6 +4,7 @@
     color: #524C4C;
     font-size: 18px;
     background-color: White;
+    margin: 0;
 }
 
 a, legend
@@ -27,11 +28,33 @@ input[type=submit] {
     margin: 0 auto;
 }
 
-#header
+#outer-header
 {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('../Images/header-bg-strip.png') repeat-x;
     height: 215px;
-    background-image: url('../Images/header.png');
+}
+
+#header
+{
+    width: 1270px;
+    height: 215px;
+    margin: 0 auto;
+    background: url('../Images/header.png') no-repeat;
+    
+}
+
+#login-display
+{
+    text-align: right;
+    color: White;
+}
+
+#login-display a
+{
+    color: White;
 }
 
 #left-column, #middle-column, #right-column

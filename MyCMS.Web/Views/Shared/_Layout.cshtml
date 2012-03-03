@@ -13,13 +13,16 @@
 
 </head>
 <body>
-    <div id="wrapper">
+
+    <div id="outer-header">
         <div id="header">
             <div id="login-display">
                 @Html.Partial("_LogOnPartial")
             </div>
         </div>
+    </div>
 
+    <div id="wrapper">
 
         <div id="left-column">
             @RenderBody()
