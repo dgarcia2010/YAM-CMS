@@ -1,0 +1,8 @@
+#compiled
+##########
+*.pdb
+*.dll
+
+#logs and databases
+###################
+*.log
