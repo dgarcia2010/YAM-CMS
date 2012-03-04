@@ -34,6 +34,10 @@
 
         <div id="footer">
         Copyright /*MyDevBlog*/ @DateTime.Now.Year, Todos los derechos reservados.
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div id="admin-tools">@Html.Partial("_AdminTools")</div>
+        }
         </div>
     </div>
 </body>

@@ -5,6 +5,8 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 
+using MyCMS.Domain.Entities;
+
 namespace MyCMS.Web.Models
 {
 
@@ -40,6 +42,22 @@ namespace MyCMS.Web.Models
 
         [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
+
+        /// <summary>
+        /// Menus that must be drawn in the middle column
+        /// </summary>
+        public IList<Menu> MiddleColumnItems { get; set; }
+
+        /// <summary>
+        /// Menus that must be drawn in the right column
+        /// </summary>
+        public IList<Menu> RightColumnItems { get; set; }
+
+        public LogOnModel()
+        {
+            MiddleColumnItems = new List<Menu>();
+            RightColumnItems = new List<Menu>();
+        }
     }
 
     public class RegisterModel

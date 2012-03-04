@@ -7,18 +7,35 @@ using System.Web.Routing;
 using System.Web.Security;
 
 using MyCMS.Web.Models;
+using MyCMS.Domain.Contracts.Infrastructure;
+using MyCMS.Domain.Contracts;
+
 
 namespace MyCMS.Web.Controllers
 {
-    public class AccountController : Controller
+    public class AccountController : ControllerBase
     {
+
+        private IMenuDataService MenuManager { get; set; }
+
+        public AccountController(ILoggingService logger, IMenuDataService menuService)
+            : base(logger)
+        {
+            MenuManager = menuService;
+        }
 
         //
         // GET: /Account/LogOn
 
         public ActionResult LogOn()
         {
-            return View();
+            var model = new LogOnModel
+            {
+                MiddleColumnItems = MenuManager.GetItemsForColumn("middle"),
+                RightColumnItems = MenuManager.GetItemsForColumn("right")
+            };
+
+            return View(model);
         }
 
         //
@@ -49,6 +66,8 @@ namespace MyCMS.Web.Controllers
             }
 
             // If we got this far, something failed, redisplay form
+            model.MiddleColumnItems = MenuManager.GetItemsForColumn("middle");
+            model.RightColumnItems = MenuManager.GetItemsForColumn("right");
             return View(model);
         }
 

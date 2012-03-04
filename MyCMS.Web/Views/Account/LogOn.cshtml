@@ -46,3 +46,11 @@
         </fieldset>
     </div>
 }
+
+@section MiddleColumn {
+    @Html.Partial("_MiddleColumn", Model.MiddleColumnItems)
+}
+
+@section RightColumn {
+    @Html.Partial("_RightColumn", Model.RightColumnItems)
+}

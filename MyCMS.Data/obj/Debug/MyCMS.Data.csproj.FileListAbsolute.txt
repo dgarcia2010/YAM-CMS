@@ -20,7 +20,6 @@ C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\EntityFramework.dll
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Microsoft.Web.Infrastructure.dll
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Domain.dll
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Ninject.dll
-C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\WebActivator.dll
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Domain.pdb
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\EntityFramework.xml
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Ninject.pdb
@@ -28,3 +27,4 @@ C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\Ninject.xml
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\obj\Debug\MyCMS.Data.dll
 C:\Users\DIEGO\YAM-CMS\MyCMS.Data\obj\Debug\MyCMS.Data.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\WebActivator.dll
