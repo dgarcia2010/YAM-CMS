@@ -48,12 +48,14 @@
     <Compile Include="Contracts\IDataService.cs" />
     <Compile Include="Contracts\IArticleDataService.cs" />
     <Compile Include="Contracts\Infrastructure\ILoggingService.cs" />
+    <Compile Include="Contracts\IMenuDataService.cs" />
     <Compile Include="Core\DataService.cs" />
     <Compile Include="Core\ServiceBase.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="ArticleDataService.cs" />
     <Compile Include="Entities\Menu.cs" />
     <Compile Include="Entities\MenuItem.cs" />
+    <Compile Include="MenuDataService.cs" />
     <Compile Include="Ninject\DomainLayerDependencyModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

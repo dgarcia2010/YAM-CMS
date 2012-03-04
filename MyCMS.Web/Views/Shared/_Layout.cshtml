@@ -28,9 +28,9 @@
             @RenderBody()
         </div>
 
-        <div id="middle-column">@Html.Partial("_MiddleColumn")</div>
+        <div id="middle-column">@RenderSection("MiddleColumn", true)</div>
 
-        <div id="right-column">@Html.Partial("_RightColumn")</div>
+        <div id="right-column">@RenderSection("RightColumn", true)</div>
 
         <div id="footer">
         Copyright /*MyDevBlog*/ @DateTime.Now.Year, Todos los derechos reservados.

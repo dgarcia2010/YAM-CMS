@@ -6,3 +6,11 @@ c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\obj\Debu
 c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\Ninject.dll
 c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\Ninject.pdb
 c:\users\diego\documents\visual studio 2010\Projects\MyCMS\MyCMS.Domain\bin\Debug\Ninject.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\bin\Debug\MyCMS.Domain.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\bin\Debug\MyCMS.Domain.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\bin\Debug\Ninject.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\bin\Debug\Ninject.pdb
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\bin\Debug\Ninject.xml
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\obj\Debug\MyCMS.Domain.dll
+C:\Users\DIEGO\YAM-CMS\MyCMS.Domain\obj\Debug\MyCMS.Domain.pdb

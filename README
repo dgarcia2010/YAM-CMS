@@ -1,3 +1,13 @@
 Yet Another Micro CMS
+=====================
 
 A playground for my personal website
+
+
+-------------------------------------------------------------------------
+
+Un jugete para mi sitio web personal
+
+El objetivo primario de este pequeño desarrollo es servir como gestor de contenido para un sitio web que hospeda un colección de artículos sobre desarrollo de software. Paralelamente pretendo hacer uso de arquitecturas y herramientas que son de mi interés en este momento: Arquitectura N-Capas, Diseño orientado a dominio, Inyección de dependencias, TDD, etc... con el fin de profundizar en ellas y aprender mediante la experimentación.
+
+Es posible que algunas de estas técnicas no sean apropiadas o no ofrezcan una ventaja clara para un desarrollo de pequeño tamaño como es este, pero no tendré este hecho en cuenta en aras del apredizaje. No obstante, valga decir que en mi opinión, todas estas técnicas ofrecen grandes beneficios incluso en aplicaciones pequeñas y orientadas a datos.

@@ -42,7 +42,7 @@ namespace MyCMS.Web
         protected override IKernel CreateKernel()
         {
             IKernel kernel = new StandardKernel(new DomainLayerDependencyModule(), new InfrastructureLayerDependencyModule());
-            kernel.Load(Assembly.LoadFrom(@"C:\Users\DIEGO\Documents\visual studio 2010\Projects\MyCMS\MyCMS.Data\bin\Debug\MyCMS.Data.dll"));
+            kernel.Load(Assembly.LoadFrom(@"C:\Users\DIEGO\YAM-CMS\MyCMS.Data\bin\Debug\MyCMS.Data.dll"));
 
             if (!kernel.HasModule("MyCMS.Data.Ninject.DataLayerDependencyModule"))
                 throw new Exception("El módulo de dependencias 'PersistenceLayerDependencyModule' no está presente");

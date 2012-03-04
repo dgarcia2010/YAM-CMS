@@ -8,14 +8,14 @@ using MyCMS.Domain.Entities;
 namespace MyCMS.Domain.Contracts
 {
     /// <summary>
-    /// Servicio de datos (funciones repositorio) para los lenguages
+    /// Data service (repository like interface) for articles
     /// </summary>
     public interface IArticleDataService : IDataService<Article>
     {
         /// <summary>
-        /// Obtiene el artículo más nuevo. Con la fecha de creación más reciente y que esté publicado
+        /// Obtains newest article. Published and most recent creation date
         /// </summary>
-        /// <returns>El artículo con la fecha de creación más reciente y que esté publicado</returns>
+        /// <returns>The newest published article</returns>
         Article GetNewest();
     }
 }

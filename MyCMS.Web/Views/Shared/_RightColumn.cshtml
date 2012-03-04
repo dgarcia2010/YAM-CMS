@@ -1,8 +1,14 @@
-﻿<h2>[Menú]</h2>
-<ul class="menu">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Archivo</a></li>
-    <li><a href="#">Profile</a></li>
-</ul>
+﻿@model System.Collections.Generic.IList<MyCMS.Domain.Entities.Menu>
 
-<h2>[Lecturas]</h2>
+@using MyCMS.Domain.Entities
+
+@foreach (Menu m in Model)
+{
+    <h2>@m.Title</h2>
+    <ul class="menu">
+    @foreach (MenuItem i in m.Items)
+    {
+        <li><a href="@Url.Content(i.Url)">@i.Title</a></li>
+    }
+    </ul>
+}

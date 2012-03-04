@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
+using MyCMS.Web.Models;
 using MyCMS.Domain.Contracts.Infrastructure;
 using MyCMS.Domain.Contracts;
 
@@ -14,23 +15,26 @@ namespace MyCMS.Web.Controllers
     {
         private IArticleDataService ArticleManager { get; set; }
 
-        public HomeController(ILoggingService logger, IArticleDataService articleManager)
+        private IMenuDataService MenuManager { get; set; }
+
+        public HomeController(ILoggingService logger, IArticleDataService articleManager, IMenuDataService menuService)
             : base(logger)
         {
             ArticleManager = articleManager;
+            MenuManager = menuService;
         }
 
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
-            //var x = ArticleManager.Get(null, null, "");
+            var model = new ShowArticleViewModel(
+                ArticleManager.GetNewest(),
+                MenuManager.GetItemsForColumn("middle"),
+                MenuManager.GetItemsForColumn("right"));
 
-            return View(ArticleManager.GetNewest());
+            model.MiddleColumnItems.Insert(0, MenuManager.LatestArticles(10));  //TODO: oooops!! magic number!
+
+            return View(model);
         }
 
-        public ActionResult About()
-        {
-            return View();
-        }
     }
 }

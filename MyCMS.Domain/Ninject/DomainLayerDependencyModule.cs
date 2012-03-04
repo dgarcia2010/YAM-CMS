@@ -16,6 +16,7 @@ namespace MyCMS.Domain.Ninject
         public override void Load()
         {
             Bind<IArticleDataService>().To<ArticleDataService>();
+            Bind<IMenuDataService>().To<MenuDataService>();
         }
     }
 }

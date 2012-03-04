@@ -1,7 +1,22 @@
-﻿<h2>[Artículos]</h2>
+﻿@model System.Collections.Generic.IList<MyCMS.Domain.Entities.Menu>
+
+@using MyCMS.Domain.Entities
+
+@foreach (Menu m in Model)
+{
+    <h2>@m.Title</h2>
+    <ul class="menu">
+    @foreach (MenuItem i in m.Items)
+    {
+        <li><a href="@Url.Content(i.Url)">@i.Title</a></li>
+    }
+    </ul>
+}
+           
+@*<h2>[Artículos]</h2>
 <ul class="menu">
     <li><a href="#">Running an ASP.NET MVC 3 app on a web server that doesn’t have ASP.NET MVC 3 installed</a></li>
     <li><a href="#">TDD and Dependency Injection with ASP.NET MVC</a></li>
 </ul>
 
-<h2>[Bookmarks]</h2>
+<h2>[Bookmarks]</h2>*@

@@ -1,15 +1,23 @@
-﻿@model MyCMS.Domain.Entities.Article
+﻿@model MyCMS.Web.Models.ShowArticleViewModel
 
 @{
-    ViewBag.Title = Model.Title;
+    ViewBag.Title = Model.Article.Title;
 }
 
-<h2>@Model.Title</h2>
-<em class="subtitle">Publicado el @Model.DateCreated.ToLongDateString()</em>
+<h2>@Model.Article.Title</h2>
+<em class="subtitle">Publicado el @Model.Article.DateCreated.ToLongDateString()</em>
 
-@Html.Raw(Model.Body)
+@Html.Raw(Model.Article.Body)
 
 <p>
 <a href="#">Anterior</a> | <a href="#">Siguiente</a>
 </p>
 
+
+@section MiddleColumn {
+    @Html.Partial("_MiddleColumn", Model.MiddleColumnItems)
+}
+
+@section RightColumn {
+    @Html.Partial("_RightColumn", Model.RightColumnItems)
+}
