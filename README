@@ -3,11 +3,13 @@ Yet Another Micro CMS
 
 A playground for my personal website
 
+Primary objective for this tiny Project is to serve as content management tool for a web site that holds a collection of technical articles in Spanish about software construction. At the same time I wish to make use of architecture paradigms, techniques and tools that are of my interest at this moment like: MVC, N-Layer architecture, Domain oriented design, Dependency injection, TDD, etc… My intention is to learn through experimentation and go deeper in the knowledge of those techniques.
 
--------------------------------------------------------------------------
+Arguably some of these techniques aren’t suitable or don’t offer a clear advantage for such a small project, but I will ignore this for the sake of learning. However, in my opinion all of these techniques offer a wide range of benefits even in a small development.
 
-Un jugete para mi sitio web personal
 
-El objetivo primario de este pequeño desarrollo es servir como gestor de contenido para un sitio web que hospeda un colección de artículos sobre desarrollo de software. Paralelamente pretendo hacer uso de arquitecturas y herramientas que son de mi interés en este momento: Arquitectura N-Capas, Diseño orientado a dominio, Inyección de dependencias, TDD, etc... con el fin de profundizar en ellas y aprender mediante la experimentación.
+Un juguete para mi sitio web personal
 
-Es posible que algunas de estas técnicas no sean apropiadas o no ofrezcan una ventaja clara para un desarrollo de pequeño tamaño como es este, pero no tendré este hecho en cuenta en aras del apredizaje. No obstante, valga decir que en mi opinión, todas estas técnicas ofrecen grandes beneficios incluso en aplicaciones pequeñas y orientadas a datos.
+El objetivo primario de este pequeño desarrollo es servir como gestor de contenido para un sitio web que hospeda una colección de artículos sobre desarrollo de software. Paralelamente pretendo hacer uso de arquitecturas y herramientas que son de mi interés en este momento: MVC, Arquitectura N-Capas, Diseño orientado a dominio, Inyección de dependencias, TDD, etc... con el fin de profundizar en ellas y aprender mediante la experimentación.
+
+Es posible que algunas de estas técnicas no sean apropiadas o no ofrezcan una ventaja clara para un desarrollo de pequeño tamaño como es este, pero no tendré este hecho en cuenta en aras del aprendizaje. No obstante, valga decir que en mi opinión, todas estas técnicas ofrecen grandes beneficios incluso en.
