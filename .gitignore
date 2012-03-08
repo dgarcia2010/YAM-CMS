@@ -1,8 +1,11 @@
-#compiled
-##########
-*.pdb
-*.dll
+#compiler output
+
+#*.pdb
+#*.dll
+
+Debug/
+/MyCMS.Web/bin/*
 
 #logs and databases
-###################
 *.log
+App_Data/
