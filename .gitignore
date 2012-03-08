@@ -1,3 +1,6 @@
+#IDE options
+*.suo
+
 #compiler output
 
 #*.pdb
