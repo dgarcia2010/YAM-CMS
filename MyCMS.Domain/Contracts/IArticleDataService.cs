@@ -17,5 +17,23 @@ namespace MyCMS.Domain.Contracts
         /// </summary>
         /// <returns>The newest published article</returns>
         Article GetNewest();
+
+        /// <summary>
+        /// Guarda un nuevo articulo
+        /// </summary>
+        /// <param name="title">titulo del articulo</param>
+        /// <param name="body">contenido HTML</param>
+        /// <param name="rewrite">sufijo de la direccion para sef</param>
+        /// <returns>El artículo recien creado</returns>
+        Article Save(string title, string body, string rewrite);
+
+        /// <summary>
+        /// Guarda y publica un artículo
+        /// </summary>
+        /// <param name="title">titulo del articulo</param>
+        /// <param name="body">contenido HTML</param>
+        /// <param name="rewrite">sufijo de la direccion para sef</param>
+        /// <returns>El artículo recien creado</returns>
+        Article SaveAndPublish(string title, string body, string rewrite);
     }
 }

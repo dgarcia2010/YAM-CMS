@@ -12,6 +12,16 @@ a, legend
     color: #800000;
 }
 
+label 
+{
+    color: Black;
+}
+
+textarea
+{
+    font-family: 'Noticia Text';
+}
+
 input[type=submit] {
     background-color: #800000;
     color: White;
@@ -20,6 +30,13 @@ input[type=submit] {
     border-color: #aaaaaa Black Black #aaaaaa;
     border-style: solid;
     border-width: thin;
+}
+
+input[type=text]
+{
+    font-family: 'Noticia Text';
+    border: thin solid #aaaaaa;
+    width: 100%;
 }
 
 #wrapper 
@@ -113,6 +130,8 @@ input[type=submit] {
     font-style: italic;    
     display: block;
     margin: 7px 0 0 17px;
+    clear: both;
+    padding-top: 35px;
 }
 
 /* Menús */
@@ -156,3 +175,21 @@ ul.menu
     font-size: 18px;
     text-decoration: none;
 }
+
+/* Forms */
+.article-title-edit
+{
+    width: 100%;
+    border: thin solid #aaaaaa;
+}
+
+.form-label
+{
+    padding-bottom: 5px;
+}
+
+.form-editor
+{
+    padding-bottom: 15px;
+}
+

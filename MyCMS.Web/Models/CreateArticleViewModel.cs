@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
+using System.ComponentModel.DataAnnotations;
+
 using MyCMS.Domain.Entities;
 
 namespace MyCMS.Web.Models
@@ -16,22 +18,27 @@ namespace MyCMS.Web.Models
         /// <summary>
         /// Título
         /// </summary>
+        [UIHint("ArticleTitle")]
+        [Display(Name = "Título")]
         public string Title { get; set; }
 
         /// <summary>
         /// Token para la URL amigable
         /// </summary>
+        [Display(Name = "Alias")]
         public string Rewrite { get; set; }
 
         /// <summary>
         /// Cuerpo HTML del artículo
         /// </summary>
+        [UIHint("CKEditor")]
+        [Display(Name = "Contenido")]
         public string Body { get; set; }
 
         /// <summary>
-        /// Determina si está visible online
+        /// Descripción del botón pulsado
         /// </summary>
-        public bool Published { get; set; }
+        public string SubmitButton { get; set; }
 
         /// <summary>
         /// Default cons.

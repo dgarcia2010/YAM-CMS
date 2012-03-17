@@ -1,0 +1,18 @@
+﻿@model string
+
+<textarea  id="@ViewData.TemplateInfo.HtmlFieldPrefix" name="@ViewData.TemplateInfo.HtmlFieldPrefix">
+    @if (!string.IsNullOrEmpty(Model))
+    {
+        @Html.Raw(Model)
+    }
+</textarea>
+<script type="text/javascript">
+//<![CDATA[
+
+    CKEDITOR.replace('@ViewData.TemplateInfo.HtmlFieldPrefix',
+		{
+		    skin: 'v2'
+		});
+
+//]]>
+</script>

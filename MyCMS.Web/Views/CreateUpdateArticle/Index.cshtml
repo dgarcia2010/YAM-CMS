@@ -1,7 +1,52 @@
 ﻿@model MyCMS.Web.Models.CreateArticleViewModel
 
+@using MyCMS.Web.Helpers
+
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Nuevo Artículo";
 }
 
-<h2>Index</h2>
+<h2>Nuevo Artículo</h2>
+<p>Cree un nuevo artículo. publíquelo o guardelo como un borrador para ser modificado y publicado más tarde.</p>
+
+
+@using (Html.BeginForm())
+{
+    <div class="form-label">
+        @Html.LabelFor(x => x.Title)
+    </div>
+    <div class="form-editor">
+        @Html.EditorFor(x => x.Title)
+    </div>
+
+    <div class="form-label">
+        @Html.LabelFor(x => x.Rewrite)
+    </div>
+    <div class="form-editor">
+        @Html.EditorFor(x => x.Rewrite)
+    </div>
+        
+    <div class="form-label">
+        @Html.LabelFor(x => x.Body)
+    </div>
+    <div class="form-editor">
+        @Html.EditorFor(x => x.Body)
+    </div>
+     
+    <input type="submit" name="SubmitButton" value="Guardar y publicar" />
+    <input type="submit" name="SubmitButton" value="Guardar como borrador" />
+    <input type="submit" name="SubmitButton" value="Descartar" />
+}
+
+@section MiddleColumn {
+    @Html.Partial("_MiddleColumn", Model.MiddleColumnItems)
+}
+
+@section RightColumn {
+    @Html.Partial("_RightColumn", Model.RightColumnItems)
+}
+
+@section head
+{
+    <script type="text/javascript" src="@Url.CKEditorScript()"></script>
+}

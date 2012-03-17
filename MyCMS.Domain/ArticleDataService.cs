@@ -36,5 +36,44 @@ namespace MyCMS.Domain
             return this.Get(x => x.Published == true, x => x.OrderByDescending(a => a.DateCreated), "").First();
         }
 
+        /// <summary>
+        /// Guarda un nuevo articulo
+        /// </summary>
+        /// <param name="title">titulo del articulo</param>
+        /// <param name="body">contenido HTML</param>
+        /// <param name="rewrite">sufijo de la direccion para sef</param>
+        /// <returns>El artículo recien creado</returns>
+        public Article Save(string title, string body, string rewrite)
+        {
+            var a = new Article
+            {
+                Title = title,
+                Rewrite = rewrite,
+                Body = body,
+                DateCreated = DateTime.Now,
+                Published = false
+            };
+
+            UnitOfWork.GetRepository<Article>().Insert(a);
+            UnitOfWork.Commit();
+            return a;
+        }
+
+        /// <summary>
+        /// Guarda y publica un artículo
+        /// </summary>
+        /// <param name="title">titulo del articulo</param>
+        /// <param name="body">contenido HTML</param>
+        /// <param name="rewrite">sufijo de la direccion para sef</param>
+        /// <returns>El artículo recien creado</returns>
+        public Article SaveAndPublish(string title, string body, string rewrite)
+        {
+            var a = Save(title, body, rewrite);
+
+            a.Published = true;
+            UnitOfWork.GetRepository<Article>().Update(a);
+            UnitOfWork.Commit();
+            return a;
+        }
     }
 }
