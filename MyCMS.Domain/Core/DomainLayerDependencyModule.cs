@@ -9,7 +9,7 @@ using MyCMS.Domain;
 using MyCMS.Domain.Contracts;
 using MyCMS.Domain.Contracts.Data;
 
-namespace MyCMS.Domain.Ninject
+namespace MyCMS.Domain.Core
 {
     public class DomainLayerDependencyModule : NinjectModule
     {

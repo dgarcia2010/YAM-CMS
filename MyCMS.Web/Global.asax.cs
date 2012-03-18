@@ -9,7 +9,7 @@ using System.Reflection;
 using Ninject.Web.Mvc;
 using Ninject;
 
-using MyCMS.Domain.Ninject;
+using MyCMS.Domain.Core;
 using MyCMS.Infrastructure.Ninject;
 
 namespace MyCMS.Web
@@ -32,6 +32,24 @@ namespace MyCMS.Web
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+                "Home", // Route name
+                "", // URL with parameters
+                new { controller = "Home", action = "Index" } // Parameter defaults
+            );
+
+            routes.MapRoute(
+                "CreateArticle", // Route name
+                "create-article", // URL with parameters
+                new { controller = "CreateUpdateArticle", action = "Index" } // Parameter defaults
+            );
+
+            routes.MapRoute(
+                "Article", // Route name
+                "{slug}", // URL with parameters
+                new { controller = "Home", action = "Article", slug = UrlParameter.Optional } // Parameter defaults
+            );
+
+            routes.MapRoute(
                 "Default", // Route name
                 "{controller}/{action}/{id}", // URL with parameters
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
@@ -47,7 +65,7 @@ namespace MyCMS.Web
             if (!kernel.HasModule("MyCMS.Data.Ninject.DataLayerDependencyModule"))
                 throw new Exception("El módulo de dependencias 'PersistenceLayerDependencyModule' no está presente");
 
-            if (!kernel.HasModule("MyCMS.Domain.Ninject.DomainLayerDependencyModule"))
+            if (!kernel.HasModule("MyCMS.Domain.Core.DomainLayerDependencyModule"))
                 throw new Exception("El módulo de dependencias 'BusinessLayerDependencyModule' no está presente");
 
             return kernel;

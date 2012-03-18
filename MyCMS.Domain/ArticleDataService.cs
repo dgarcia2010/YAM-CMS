@@ -37,6 +37,16 @@ namespace MyCMS.Domain
         }
 
         /// <summary>
+        /// Obtiene articulo por su rewrite
+        /// </summary>
+        /// <param name="slug">el sufijo url (rewrite)</param>
+        /// <returns>EL artículo o null si no hay ninguno con ese rewrite</returns>
+        public Article Get(string slug)
+        {
+            return this.Get(x => x.Published == true && x.Rewrite == slug, x => x.OrderByDescending(a => a.DateCreated), "").First();
+        }
+
+        /// <summary>
         /// Guarda un nuevo articulo
         /// </summary>
         /// <param name="title">titulo del articulo</param>

@@ -36,5 +36,16 @@ namespace MyCMS.Web.Controllers
             return View(model);
         }
 
+        public ActionResult Article(string slug)
+        {
+            var model = new ShowArticleViewModel(
+                ArticleManager.Get(slug),
+                MenuManager.GetItemsForColumn("middle"),
+                MenuManager.GetItemsForColumn("right"));
+
+            model.MiddleColumnItems.Insert(0, MenuManager.LatestArticles(10));  //TODO: oooops!! magic number!
+
+            return View("Index", model);
+        }
     }
 }

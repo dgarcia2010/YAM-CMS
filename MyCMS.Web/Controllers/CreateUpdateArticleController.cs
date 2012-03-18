@@ -10,6 +10,7 @@ using MyCMS.Domain.Contracts;
 
 namespace MyCMS.Web.Controllers
 {
+    [Authorize]
     public class CreateUpdateArticleController : ControllerBase
     {
 
@@ -65,7 +66,16 @@ namespace MyCMS.Web.Controllers
                 }
             }
 
+            model.MiddleColumnItems = MenuManager.GetItemsForColumn("middle");
+            model.RightColumnItems = MenuManager.GetItemsForColumn("right");
+            model.MiddleColumnItems.Insert(0, MenuManager.LatestArticles(10));  //TODO: oooops!! magic number!
             return View(model);
+        }
+
+        public ActionResult Update()
+        {
+
+            return View();
         }
 
     }

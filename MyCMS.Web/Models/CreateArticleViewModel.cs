@@ -20,12 +20,15 @@ namespace MyCMS.Web.Models
         /// </summary>
         [UIHint("ArticleTitle")]
         [Display(Name = "Título")]
+        [Required]
+        [StringLength(640)]
         public string Title { get; set; }
 
         /// <summary>
         /// Token para la URL amigable
         /// </summary>
         [Display(Name = "Alias")]
+        [StringLength(512)]
         public string Rewrite { get; set; }
 
         /// <summary>
@@ -38,6 +41,7 @@ namespace MyCMS.Web.Models
         /// <summary>
         /// Descripción del botón pulsado
         /// </summary>
+        /// [Required]
         public string SubmitButton { get; set; }
 
         /// <summary>

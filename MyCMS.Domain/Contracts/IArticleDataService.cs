@@ -19,6 +19,13 @@ namespace MyCMS.Domain.Contracts
         Article GetNewest();
 
         /// <summary>
+        /// Obtiene articulo por su rewrite
+        /// </summary>
+        /// <param name="slug">el sufijo url (rewrite)</param>
+        /// <returns>EL artículo o null si no hay ninguno con ese rewrite</returns>
+        Article Get(string slug);
+
+        /// <summary>
         /// Guarda un nuevo articulo
         /// </summary>
         /// <param name="title">titulo del articulo</param>
